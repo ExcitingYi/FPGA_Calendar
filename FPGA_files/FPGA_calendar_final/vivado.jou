@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jul  8 18:55:39 2021
+# Process ID: 6992
+# Current directory: E:/Study/Grade2.two/Digital_elec/kechengsheji/FPGA_files/FPGA_calendar_final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13120 E:\Study\Grade2.two\Digital_elec\kechengsheji\FPGA_files\FPGA_calendar_final\FPGA_calendar_final.xpr
+# Log file: E:/Study/Grade2.two/Digital_elec/kechengsheji/FPGA_files/FPGA_calendar_final/vivado.log
+# Journal file: E:/Study/Grade2.two/Digital_elec/kechengsheji/FPGA_files/FPGA_calendar_final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Study/Grade2.two/Digital_elec/kechengsheji/FPGA_files/FPGA_calendar_final/FPGA_calendar_final.xpr
+update_compile_order -fileset sources_1
+file mkdir E:/Study/Grade2.two/Digital_elec/kechengsheji/FPGA_files/FPGA_calendar_final/FPGA_calendar_final.srcs/sources_1/new
+close [ open E:/Study/Grade2.two/Digital_elec/kechengsheji/FPGA_files/FPGA_calendar_final/FPGA_calendar_final.srcs/sources_1/new/note_module.v w ]
+add_files E:/Study/Grade2.two/Digital_elec/kechengsheji/FPGA_files/FPGA_calendar_final/FPGA_calendar_final.srcs/sources_1/new/note_module.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1

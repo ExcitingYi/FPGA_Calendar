@@ -1,0 +1,429 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Jul  8 19:00:30 2021
+| Host         : DESKTOP-TI4I8NG running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -max_paths 10 -file top_file_timing_summary_routed.rpt -pb top_file_timing_summary_routed.pb -rpx top_file_timing_summary_routed.rpx -warn_on_violation
+| Design       : top_file
+| Device       : 7a35t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (1351)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (856)
+5. checking no_input_delay (11)
+6. checking no_output_delay (32)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (1351)
+---------------------------
+ There are 294 register/latch pins with no clock driven by root clock pin: clk (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: matchOnline (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: rst (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: stop_key (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[10]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[11]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[12]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[13]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[14]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[15]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[1]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[2]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[3]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[4]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[5]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[6]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[7]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[8]/Q (HIGH)
+
+ There are 42 register/latch pins with no clock driven by root clock pin: Receivor0/FSM_onehot_cnt1_reg[9]/Q (HIGH)
+
+ There are 2 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[10]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/datedata_reg[11]/Q (HIGH)
+
+ There are 3 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[12]/Q (HIGH)
+
+ There are 2 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[13]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/datedata_reg[14]/Q (HIGH)
+
+ There are 14 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[16]/Q (HIGH)
+
+ There are 13 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[17]/Q (HIGH)
+
+ There are 12 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[18]/Q (HIGH)
+
+ There are 11 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[19]/Q (HIGH)
+
+ There are 13 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[20]/Q (HIGH)
+
+ There are 12 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[21]/Q (HIGH)
+
+ There are 11 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[22]/Q (HIGH)
+
+ There are 10 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[23]/Q (HIGH)
+
+ There are 12 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[24]/Q (HIGH)
+
+ There are 11 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[25]/Q (HIGH)
+
+ There are 10 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[26]/Q (HIGH)
+
+ There are 9 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[27]/Q (HIGH)
+
+ There are 11 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[28]/Q (HIGH)
+
+ There are 10 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[29]/Q (HIGH)
+
+ There are 9 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[30]/Q (HIGH)
+
+ There are 8 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[31]/Q (HIGH)
+
+ There are 4 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[8]/Q (HIGH)
+
+ There are 3 register/latch pins with no clock driven by root clock pin: Receivor0/datedata_reg[9]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[0]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[10]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[11]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[12]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[13]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[14]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[15]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[16]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[17]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[18]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[19]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[1]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[20]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[21]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[22]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[23]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[2]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[3]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[4]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[5]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[6]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[7]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[8]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Receivor0/timedata_reg[9]/Q (HIGH)
+
+ There are 48 register/latch pins with no clock driven by root clock pin: hms_cnt0/divclk_reg/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_key_debounce/btn0_reg/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_key_debounce/btn1_reg/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_key_debounce/btn2_reg/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[0]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[0]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[0]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[10]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[10]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[10]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[11]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[11]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[11]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[12]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[12]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[12]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[13]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[13]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[13]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[1]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[1]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[1]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[2]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[2]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[2]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[3]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[3]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[3]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[4]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[4]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[4]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[5]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[5]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[5]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[6]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[6]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[6]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[7]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[7]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[7]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[8]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[8]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[8]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[9]_C/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[9]_LDC/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_main_counter/yearCounter/state_reg[9]_P/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[0]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[10]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[11]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[12]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[13]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[1]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[2]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[3]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[4]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[5]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[6]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[7]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[8]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: u_note_module/yearCounter/state_reg[9]/Q (HIGH)
+
+ There are 16 register/latch pins with no clock driven by root clock pin: u_smg/divclk_reg/Q (HIGH)
+
+ There are 3 register/latch pins with no clock driven by root clock pin: u_time_div/clk_btn_reg/Q (HIGH)
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (856)
+--------------------------------------------------
+ There are 856 pins that are not constrained for maximum delay. (HIGH)
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (11)
+-------------------------------
+ There are 11 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (32)
+--------------------------------
+ There are 32 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+         NA           NA                     NA                   NA           NA           NA                     NA                   NA           NA           NA                      NA                    NA  
+
+
+There are no user specified timing constraints.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
